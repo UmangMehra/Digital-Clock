@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+</style>
+
+*{
+	padding:0;
+	margin:0;                     /* every browser have certain padding and space, so we hav to remove that first*/
+	box-sizing:border-box;
+}
+
+body{
+	background: white;
+}
+
+.main{
+	background: #ccc;
+	width:400px;
+	margin: 100px auto; /* '0' is for x-axis and auto is for y*/
+    height: 175px;
+    position: relative;
+    padding: 30px;
+}
+
+.badge{
+	background: #e66357;
+	width:80px;
+	color: white;
+	padding: 5px 10px;
+	font-family: sans-serif;
+	font-weight: bold;
+	position: absolute;
+	left: 40%;
+	top: -15px;
+}              
+
+.clock{
+	background-color: #EBEBEB;
+	text-align: center;
+	font-size: 55px;
+	height: 90%;
+	padding-top: 20px;
+	font-family: Orbitron;
+	border-radius: 5px;
+}
+
+
+/* also can create your own background from 
+pattens.flaticon.com */
